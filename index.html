@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="portfolio2.css">
+</head>
+
+<body>
+
+    <!-- HTML inside <body> -->
+    <ul class="bubbles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+
+    <nav class="navbar-container">
+        <div class="logo"><span>A</span>Ayush's Portfolio</div>
+
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+
+        <div class="nav-links" id="navLinks">
+            <a href="index.html">Home</a>
+            <a href="index.html">Portfolio</a>
+            <a href="index.html">About</a>
+            <a href="contact.html">Contact</a>
+
+
+            <div class="dropdown">
+                <a href="#" class="dropdown-toggle">Pages ▾</a>
+                <div class="dropdown-menu">
+                    <a href="index.html" id="aboutLink">About</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="#">Blog (Coming Soon)</a>
+                </div>
+            </div>
+    </nav>
+
+
+    <section class="hero">
+        <div class="hero-image">
+            <div> </div>
+            <img src="image02.jpeg" alt="Ayush's Photo">
+        </div>
+        <div class="hero-content">
+            <div class="tag">About Me</div>
+            <h1>Get a website that will make a lasting impression on your audience!</h1>
+            <p>I’m Ayush, a creative designer and developer. I specialize in crafting stunning visuals and clean,
+                responsive web experiences.</p>
+
+            <div class="info-box">
+                <div><span>Name:</span> Ayush Chaurasia</div>
+                <div><span>Phone:</span> +91 8587874104</div>
+                <div><span>Email:</span> ayushchaurasia67@gmail.com</div>
+                <div><span>Twitter:</span> @ayushchaurasia67</div>
+            </div>
+
+            <div class="buttons">
+                <a href="contact.html" class="btn btn-contact">Contact me →</a>
+                <a href="#resume" class="btn btn-resume">Download my resume ⬇</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section">
+        <h2>My Work <span>Skills</span></h2>
+        <p class="skills-subtext">Here’s what I specialize in — from design to development and creative media work.</p>
+
+        <div class="skills-grid">
+            <!-- Graphic Design -->
+            <div class="skill-card">
+                <img src="https://img.icons8.com/color/48/000000/adobe-illustrator.png" alt="Graphic Design">
+                <h3>Graphic Design</h3>
+                <p>Logo & Branding, Banner Design, Posters & Pamphlets</p>
+                <div class="progress-bar"><span style="width: 98%;"></span></div>
+            </div>
+
+            <!-- Photo Manipulation -->
+            <div class="skill-card">
+                <img src="https://img.icons8.com/color/48/000000/adobe-photoshop.png" alt="Photo Editing">
+                <h3>Photo Editing</h3>
+                <p>Manipulation, Retouching, Background Removal</p>
+                <div class="progress-bar"><span style="width: 95%;"></span></div>
+            </div>
+
+            <!-- Animations -->
+            <div class="skill-card">
+                <img src="blender.png" alt="Animations">
+                <h3>Animations</h3>
+                <p>Motion Graphics, Logo Animation, Explainers</p>
+                <div class="progress-bar"><span style="width: 90%;"></span></div>
+            </div>
+
+            <!-- Video Editing -->
+            <div class="skill-card">
+                <img src="davinci.png" alt="Video Editing">
+                <h3>Video Editing</h3>
+                <p>Promos, Reels, YouTube Videos</p>
+                <div class="progress-bar"><span style="width: 94%;"></span></div>
+            </div>
+
+            <!-- Web Design & Dev -->
+            <div class="skill-card">
+                <img src="https://img.icons8.com/color/48/000000/web.png" alt="Web Design">
+                <h3>Web Design & Dev</h3>
+                <p>UI/UX, Responsive Design, Frontend Dev</p>
+                <div class="progress-bar"><span style="width: 97%;"></span></div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="services-section">
+        <h2>My <span>Services</span></h2>
+        <p class="services-subtext">
+            From visuals to websites — I offer professional design, editing, and development services tailored to your
+            needs.
+        </p>
+
+        <div class="services-grid">
+            <!-- Service Card 1 -->
+            <div class="service-card">
+                <img src="graphic.png" alt="Graphic Design">
+                <div class="service-content">
+                    <h3>Graphic Design</h3>
+                    <a href="#portfolio" class="arrow-btn">➜</a>
+                </div>
+            </div>
+
+            <!-- Service Card 2 -->
+            <div class="service-card">
+                <img src="photoediting.png" alt="Photo Editing">
+                <div class="service-content">
+                    <h3>Photo Manipulation</h3>
+                    <a href="#portfolio" class="arrow-btn">➜</a>
+                </div>
+            </div>
+
+            <!-- Service Card 3 -->
+            <div class="service-card">
+                <img src="videoediting.png" alt="Video Editing">
+                <div class="service-content">
+                    <h3>Video Editing</h3>
+                    <a href="#portfolio" class="arrow-btn">➜</a>
+                </div>
+            </div>
+
+            <!-- Service Card 4 -->
+            <div class="service-card">
+                <img src="blenderanimaton.png" alt="Animations">
+                <div class="service-content">
+                    <h3>Animations</h3>
+                    <a href="#portfolio" class="arrow-btn">➜</a>
+                </div>
+            </div>
+
+            <!-- Service Card 5 -->
+            <div class="service-card">
+                <img src="uiux.png" alt="Web Design">
+                <div class="service-content">
+                    <h3>Web Design</h3>
+                    <a href="#portfolio" class="arrow-btn">➜</a>
+                </div>
+            </div>
+
+            <!-- Service Card 6 -->
+            <div class="service-card">
+                <img src="devlopment.png" alt="Web Development">
+                <div class="service-content">
+                    <h3>Web Development</h3>
+                    <a href="#portfolio" class="arrow-btn">➜</a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#portfolio" class="see-all-btn">See All →</a>
+    </section>
+
+
+
+    <section class="slider-section">
+        <div class="slider-box">
+            <div class="slider" id="slider1">
+                <img src="im2.jpeg" alt="">
+                <img src="im3.jpeg" alt="">
+                <img src="im4.jpeg" alt="">
+            </div>
+            <button class="prev" data-slider="slider1">←</button>
+            <button class="next" data-slider="slider1">→</button>
+        </div>
+
+        <div class="slider-box">
+            <div class="slider" id="slider2">
+                <img src="im1.jpeg" alt="">
+                <img src="im5.jpeg" alt="">
+                <img src="im6.jpeg" alt="">
+            </div>
+            <button class="prev" data-slider="slider2">←</button>
+            <button class="next" data-slider="slider2">→</button>
+        </div>
+    </section>
+
+
+
+    <section class="testimonials-section">
+        <h2>What My <span>Clients Say</span></h2>
+        <p class="testimonials-subtext">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis,
+            pulvinar dapibus leo.
+        </p>
+
+        <div class="testimonials-grid">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-card">
+                <div class="testimonial-rating">★★★★★</div>
+                <div class="testimonial-profile">
+                    <img src="person01.png" alt="Robert J.">
+                    <div>
+                        <strong>Robert J.</strong><br>
+                        <small>CEO at Acme</small>
+                    </div>
+                    <span class="quote-icon">❝</span>
+                </div>
+                <p>Ayush delivered exceptional design and development work. The project was seamless, and communication
+                    was top-notch. Highly recommended.</p>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="testimonial-card">
+                <div class="testimonial-rating">★★★★★</div>
+                <div class="testimonial-profile">
+                    <img src="person02.png" alt="Janica Z.">
+                    <div>
+                        <strong>Janica Z.</strong><br>
+                        <small>Designation</small>
+                    </div>
+                    <span class="quote-icon">❝</span>
+                </div>
+                <p>Working with Ayush was a pleasure. He understood our vision perfectly and brought it to life with
+                    incredible attention to detail.</p>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="testimonial-card">
+                <div class="testimonial-rating">★★★★★</div>
+                <div class="testimonial-profile">
+                    <img src="person03.png" alt="Justin B.">
+                    <div>
+                        <strong>Justin B.</strong><br>
+                        <small>Designation</small>
+                    </div>
+                    <span class="quote-icon">❝</span>
+                </div>
+                <p>One of the most dedicated professionals I’ve worked with. Ayush exceeded our expectations with his
+                    creativity and speed.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- Logo & Description -->
+            <div class="footer-col">
+                <h2 class="logo"><span>A</span> Ayush</h2>
+                <p>Creative Frontend Developer crafting beautiful and responsive websites. Let’s build something amazing
+                    together.</p>
+            </div>
+
+            <!-- Navigation -->
+            <div class="footer-col">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <ul>
+                    <li>📞 (+234) 567-8910</li>
+                    <li>📧 example@domain.com</li>
+                    <li>📍 Kazipur, Sirajganj, BD</li>
+                    <li>🌐 ayushportfolio.com</li>
+                    <li>🕒 Mon – Fri / 8am–10pm</li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="footer-col">
+                <h3>Get the latest information</h3>
+                <p>Subscribe to my newsletter to receive updates on new projects, tech articles, and career
+                    tips—straight to your inbox.</p>
+                <div class="newsletter">
+                    <input type="email" placeholder="Your email" />
+                    <button>→</button>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2024 Ayush. All Rights Reserved.</p>
+            <div>
+                <a href="#">Terms & Service</a> |
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
